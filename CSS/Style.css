@@ -1,0 +1,29 @@
+header{
+    font-size: 14;
+    text-align: center;
+
+}
+body{
+    text-align: center;
+    background-color: rgba(17, 116, 223, 0.701) ;
+    border: 2px rgb(15, 15, 15);
+}
+form{
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+button{
+    font-size: 14px;
+    
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0,4s;
+    width: 100%;
+
+
+
+
+
+}

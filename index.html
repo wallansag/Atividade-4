@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>@import url(CSS/Style.css);</style>
+</head>
+<body>
+    <Header><h1>Formulário de Inscrição</h1></Header>
+    <form>
+    <p><label for="nome">Nome Completo</label></p>
+    <input type="text" id="nome" name="nome" required>
+    <p><label for="email">E-mail</label></p>
+    <input type="email" id="email" name="email" required>
+    <p><label for="telefone">Telefone</label></p>
+    <input type="tel" id="telefone" name="telefone" required>
+    <p><label for="data-nascimento">Data de Nascimento</label></p>
+    <input type="date" id="data-nascimento" name="data-nascimento" required>
+    <p><label for="">Gênero</label></p>
+<select>
+    <option> Selecione uma opção </option>
+    <option value=1>Masculino</option>
+    <option value=2>Feminino</option>
+</select>
+<p><label>Mensagem</label></p>
+<textarea maxlength="200">
+
+</textarea>
+<p><label>Tipo de Inscrição</label></p>
+<p><select>
+    <Option> Selecione um tipo de Inscrição</Option>
+    <option value="1">Palestrante</option>
+    <option value="2">Participante</option>
+    <option value="3">Voluntário</option>
+    <option value="4">Outro</option>
+
+
+</select></p>
+<button type="submit">Enviar</button>
+<button type="reset">Limpar</button>
+</form>   
+</body>
+</html>
